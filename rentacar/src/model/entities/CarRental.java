@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CarRental {
     
-    private Date star;
+    private Date start;
     private Date finish;
 
     private Vehicle vehicle;
@@ -13,18 +13,18 @@ public class CarRental {
     public CarRental() {
     }
 
-    public CarRental(Date star, Date finish, Vehicle vehicle) {
-        this.star = star;
+    public CarRental(Date start, Date finish, Vehicle vehicle) {
+        this.start = start;
         this.finish = finish;
         this.vehicle = vehicle;
     }
 
     public Date getStar() {
-        return star;
+        return start;
     }
 
-    public void setStar(Date star) {
-        this.star = star;
+    public void setStar(Date start) {
+        this.start = start;
     }
 
     public Date getFinish() {
