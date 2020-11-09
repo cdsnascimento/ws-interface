@@ -30,10 +30,8 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public double area() {
-        
+    public double area() {   
         return width * height;
-        
     }
 
 
